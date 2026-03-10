@@ -1,0 +1,34 @@
+{
+  "name": "insomnia-plugin-verint-token",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "insomnia": {
+    "name": "verint-token",
+    "displayName": "Verint Authentication Plugin",
+    "description": "Automatically generates Verint API authentication headers using HMAC-SHA256 signing. Requires api_key_id and api_key environment variables.",
+    "publisher": {
+      "name": "Samer Koda"
+    },
+    "unlisted": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samer Koda",
+  "license": "ISC",
+  "description": "Insomnia plugin that automatically generates Verint API authentication headers using HMAC-SHA256 signing algorithm. The plugin reads api_key_id and api_key from environment variables and creates the proper Authorization header for Verint API requests, eliminating the need to manually generate authentication tokens.",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "verint",
+    "authentication",
+    "hmac",
+    "api",
+    "auth"
+  ],
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {}
+}
