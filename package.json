@@ -7,6 +7,10 @@
     "name": "verint-token",
     "displayName": "Verint Authentication Plugin",
     "description": "Automatically generates Verint API authentication headers using HMAC-SHA256 signing. Requires api_key_id and api_key environment variables.",
+    "images": {
+      "icon": "icon.svg",
+      "cover": "cover.svg"
+    },
     "publisher": {
       "name": "Samer Koda"
     },
