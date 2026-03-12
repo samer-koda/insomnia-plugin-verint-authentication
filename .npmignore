@@ -1,0 +1,10 @@
+# Development & CI
+.github/
+.gitignore
+.npmignore
+
+# Tests and local config
+*.test.js
+*.spec.js
+.env
+.env.*
